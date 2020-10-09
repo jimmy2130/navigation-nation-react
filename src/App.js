@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import MenuBar from './components/menu-bar/menu-bar.component';
+import HomeSection from './components/home-section/home-section.component';
+import SectionBlock from './components/section-block/section-block.component';
+import MenuOverlay from './components/menu-overlay/menu-overlay.component';
+import { Toggle } from './utils/toggle.js';
+import section from './sectionInfo.js';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  const toggleFunc = Toggle();
+  const contentBlock = section.slice(1);
+
+  return(
+  <div>
+    <MenuOverlay {...toggleFunc}/>
+    <MenuBar {...toggleFunc}/>
+    <HomeSection />
+    {contentBlock.map(item => (
+      <SectionBlock key={item.id} {...item}>
+      </SectionBlock>
+    ))}
+  </div>
+  )
 }
 
 export default App;
