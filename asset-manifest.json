@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/navigation-nation-react/static/css/main.7958f15a.chunk.css",
+    "main.js": "/navigation-nation-react/static/js/main.0003e308.chunk.js",
+    "main.js.map": "/navigation-nation-react/static/js/main.0003e308.chunk.js.map",
+    "runtime-main.js": "/navigation-nation-react/static/js/runtime-main.262dc16d.js",
+    "runtime-main.js.map": "/navigation-nation-react/static/js/runtime-main.262dc16d.js.map",
+    "static/js/2.da8b1413.chunk.js": "/navigation-nation-react/static/js/2.da8b1413.chunk.js",
+    "static/js/2.da8b1413.chunk.js.map": "/navigation-nation-react/static/js/2.da8b1413.chunk.js.map",
+    "index.html": "/navigation-nation-react/index.html",
+    "precache-manifest.30ee38e4ff0baf3c59b9156476b7b918.js": "/navigation-nation-react/precache-manifest.30ee38e4ff0baf3c59b9156476b7b918.js",
+    "service-worker.js": "/navigation-nation-react/service-worker.js",
+    "static/css/main.7958f15a.chunk.css.map": "/navigation-nation-react/static/css/main.7958f15a.chunk.css.map",
+    "static/js/2.da8b1413.chunk.js.LICENSE.txt": "/navigation-nation-react/static/js/2.da8b1413.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.262dc16d.js",
+    "static/js/2.da8b1413.chunk.js",
+    "static/css/main.7958f15a.chunk.css",
+    "static/js/main.0003e308.chunk.js"
+  ]
+}
